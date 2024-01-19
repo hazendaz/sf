@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (c) 2024, Salesforce.com, Inc.
+    All rights reserved.
+    Licensed under the BSD 3-Clause license.
+    For full license text, see LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+
+-->
+<assembly xmlns="https://maven.apache.org/ASSEMBLY/2.2.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://maven.apache.org/ASSEMBLY/2.2.0 https://maven.apache.org/xsd/assembly-2.2.0.xsd">
+
+    <id>windows-x64</id>
+
+    <formats>
+        <format>tar.xz</format>
+    </formats>
+
+    <includeBaseDirectory>false</includeBaseDirectory>
+
+    <fileSets>
+        <fileSet>
+            <directory>C:/Program Files/sf/client</directory>
+            <outputDirectory>sf</outputDirectory>
+            <includes>
+                <include>**/*</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+
+</assembly>
