@@ -38,8 +38,8 @@
     <scm>
         <connection>scm:git:ssh://git@github.com/hazendaz/sf.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/hazendaz/sf.git</developerConnection>
-        <url>https://github.com/hazendaz/sf</url>
         <tag>HEAD</tag>
+        <url>https://github.com/hazendaz/sf</url>
     </scm>
     <distributionManagement>
         <site>
@@ -83,15 +83,15 @@
                 <executions>
                     <execution>
                         <id>sdfx-assembly</id>
-                        <phase>package</phase>
                         <goals>
                             <goal>single</goal>
                         </goals>
+                        <phase>package</phase>
                         <configuration>
                             <descriptors>
                                 <descriptor>${project.basedir}/src/assembly/assembly.xml</descriptor>
                             </descriptors>
-                             <tarLongFileMode>gnu</tarLongFileMode>
+                            <tarLongFileMode>gnu</tarLongFileMode>
                         </configuration>
                     </execution>
                 </executions>
@@ -104,10 +104,10 @@
                 <executions>
                     <execution>
                         <id>attach-artifacts</id>
-                        <phase>package</phase>
                         <goals>
                             <goal>attach-artifact</goal>
                         </goals>
+                        <phase>package</phase>
                         <configuration>
                             <artifacts>
                                 <artifact>
