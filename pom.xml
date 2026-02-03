@@ -51,7 +51,7 @@
 
     <properties>
         <sf.version>2.104.6</sf.version>
-        <download-plugin.version>2.0.0</download-plugin.version>
+        <download-plugin.version>2.1.0</download-plugin.version>
     </properties>
 
     <build>
