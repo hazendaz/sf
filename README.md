@@ -1,7 +1,7 @@
 # Salesforce Cli Compiled Distro #
 
 [![Java CI](https://github.com/hazendaz/sf/workflows/Java%20CI/badge.svg)](https://github.com/hazendaz/sf/actions?query=workflow%3A%22Java+CI%22)
-[![Maven central](https://maven-badges.herokuapp.com/maven-central/com.github.hazendaz.sf/sf/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.hazendaz.sf/sf)
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.hazendaz.sf/sf.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/com.github.hazendaz.sf/sf)
 [![BSD-3](http://img.shields.io/badge/license-BSD%203-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ![hazendaz](src/site/resources/images/hazendaz-banner.jpg)
