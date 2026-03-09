@@ -20,7 +20,7 @@
 
     <groupId>com.github.hazendaz.sf</groupId>
     <artifactId>sf</artifactId>
-    <version>2.104.7-SNAPSHOT</version>
+    <version>2.125.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>sf</name>
@@ -50,7 +50,7 @@
     </distributionManagement>
 
     <properties>
-        <sf.version>2.104.6</sf.version>
+        <sf.version>2.125.2</sf.version>
         <download-plugin.version>2.1.0</download-plugin.version>
     </properties>
 
