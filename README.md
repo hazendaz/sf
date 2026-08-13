@@ -6,20 +6,14 @@
 
 ![hazendaz](src/site/resources/images/hazendaz-banner.jpg)
 
-This project compiles salesforce cli for distribution using maven central.
+This project takes salesforce cli distribution for distribution using maven central.
 
-For more information on salesforce developer experience, please see [sf](https://developer.salesforce.com/developer-centers/developer-experience)
+For more information on salesforce developer experience, please see [sf-cli](https://developer.salesforce.com/developer-centers/developer-experience)
 
 # Motivation #
 
-Salesforce does not currently provide a maven central distribution of the project.  This project aims to solve that by providing users an alternative location to pull distribution for linux.
-
-This project further provides alternative bundle for windows that does not require an install.
+Salesforce does not currently provide a maven central distribution of the project.  This project aims to solve that by providing users an alternative location to pull distribution for linux/windows.
 
 # Use Case #
 
 Maven based storage of distribution in common location to offer more secure download location.  This is the compiled copy thus meaning no time wasted getting up and running the sf cli.
-
-# Windows #
-
-To utilize windows bundle in this, install it to windows from https://developer.salesforce.com/tools/salesforcecli# using 64-bit copy.  The build then points to the expected default windows location of c:\Program Files\sf\client
