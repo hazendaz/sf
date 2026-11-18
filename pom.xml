@@ -52,7 +52,7 @@
     <properties>
         <sf.version>2.148.3</sf.version>
         <sf.hash>ddda74a</sf.hash>
-        <download-plugin.version>2.1.0</download-plugin.version>
+        <download-plugin.version>2.2.0</download-plugin.version>
     </properties>
 
     <build>
